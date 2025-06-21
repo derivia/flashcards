@@ -1,0 +1,9 @@
+services:
+  ui-flashcards:
+    container_name: ui-flashcards
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+networks:
+  default:
+    driver: bridge

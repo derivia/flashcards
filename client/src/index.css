@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	line-height: 1.6em;
+	font-weight: 400;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	background-color: #f8f5f2;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Inter", sans-serif;
+}
+
+#root {
+	word-wrap: break-word;
+	margin: 0 auto;
+}
+
+@media all and (min-width: 640px) {
+	html {
+		font-size: 14px;
+	}
+}
+@media all and (min-width: 720px) {
+	html {
+		font-size: 15px;
+	}
+}
+@media all and (min-width: 960px) {
+	html {
+		font-size: 16px;
+	}
+}
